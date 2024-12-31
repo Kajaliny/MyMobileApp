@@ -24,7 +24,7 @@ export default function Home() {
                         Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.
 
                     </Text>
-                    <Button icon="camera" mode="outlined" onPress={() => navigation.navigate('Contact')}>
+                    <Button icon="camera" mode="outlined" onPress={() => navigation.navigate('contact')}>
                         Press me
                     </Button>
                 </View>
