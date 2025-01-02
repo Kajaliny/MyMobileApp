@@ -15,3 +15,4 @@ xport default function App() {
           screenOptions={{
             headerStyle:{backgroundColor:'#e2bee2'}
           }}>   
+ <Stack.Screen name='home' component={Home} options={{title:"welcome"}}/>
