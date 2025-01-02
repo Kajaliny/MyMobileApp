@@ -8,3 +8,10 @@ import  AboutUs  from './components/AboutUs';
 xport default function App() {
     const Stack = createNativeStackNavigator();
   return (
+
+   <SafeAreaProvider>
+      <NavigationContainer>
+          <Stack.Navigator initialRouterName='contact'
+          screenOptions={{
+            headerStyle:{backgroundColor:'#e2bee2'}
+          }}>   
