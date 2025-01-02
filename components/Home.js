@@ -27,6 +27,9 @@ export default function Home() {
                     <Button  mode="outlined" onPress={() => navigation.navigate('contact')}>
                         Contact me
                     </Button>
+                            <Button  mode="outlined" onPress={() => navigation.navigate('about')}>
+                        About us
+                    </Button>
                 </View>
             </ScrollView>
         </PaperProvider>
