@@ -17,3 +17,10 @@ xport default function App() {
           }}>   
  <Stack.Screen name='home' component={Home} options={{title:"welcome"}}/>
  <Stack.Screen name='contact' component={ContactUs} options={{title:"ContactUs"}}/>
+<Stack.Screen name='about' component={AboutUs} options={{title:"AboutUs"}}/>
+          </Stack.Navigator>
+      </NavigationContainer>
+    </SafeAreaProvider>
+
+  );
+}
