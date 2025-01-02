@@ -16,3 +16,4 @@ xport default function App() {
             headerStyle:{backgroundColor:'#e2bee2'}
           }}>   
  <Stack.Screen name='home' component={Home} options={{title:"welcome"}}/>
+ <Stack.Screen name='contact' component={ContactUs} options={{title:"ContactUs"}}/>
